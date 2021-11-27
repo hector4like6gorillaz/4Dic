@@ -23,8 +23,8 @@ function App() {
 
   //console.log(dataRecibida, "soy data")
   console.log(dataRecibida !== null ? dataRecibida : "es null");
-  
 
+  console.log("para visualizar en github");
   //dataRecibida !== null && console.log(dataRecibida[0].name);
 
   return (
@@ -32,8 +32,8 @@ function App() {
       <header className="App-header">
         {dataRecibida !== null ? (
           <div className="grilla">
-            {dataRecibida.map((item,index) => {
-              console.log(item)
+            {dataRecibida.map((item) => {
+              console.log(item);
               return (
                 <div className="Card">
                   <h1 className="h1nombre">{item.name}</h1>
