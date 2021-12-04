@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 
 import logo from "./logo.svg";
 import "./App.css";
+import "./calcu.css";
+
 import { envAPI } from "./apiCalls";
 
 function App() {
@@ -90,7 +92,29 @@ function App() {
         {/* ejemplo de display:grid; */}
       </header>
       {/* calculadora */}
-
+      <div className="calcu">
+        <div className="pantalla">
+          <h1>987654231</h1>
+        </div>
+        <div className="botones">
+          <div className="uno"></div>
+          <div className="dos"></div>
+          <div className="tres"></div>
+          <div className="cuatro"></div>
+          <div className="cinco"></div>
+          <div className="seis"></div>
+          <div className="siete"></div>
+          <div className="ocho"></div>
+          <div className="nueve"></div>
+          <div className="cero"></div>
+          <div className="uno"></div>
+          <div className="uno"></div>
+          <div className="uno"></div>
+          <div className="uno"></div>
+          <div className="uno"></div>
+          <div className="uno"></div>
+        </div>
+      </div>
 
       {/* calculadora */}
     </div>
