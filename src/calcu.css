@@ -22,4 +22,21 @@
   border-style: solid;
   border-width: 1px;
   background: orange;
+  display: grid;
+  grid-template-columns: 25% 25%25%25%;
+  grid-template-rows: 20%20%20%20%20%;
+  grid-template-areas:
+    "siete ocho nueve del"
+    "cuatro cinco seis plus"
+    "uno dos tres rest"
+    "dot cero div mul"
+    "res res igu igu";
+}
+
+.siete {
+  grid-area: siete;
+}
+
+.ocho{
+    grid-area: ocho;
 }

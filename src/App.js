@@ -97,22 +97,23 @@ function App() {
           <h1>987654231</h1>
         </div>
         <div className="botones">
-          <div className="uno"></div>
-          <div className="dos"></div>
-          <div className="tres"></div>
-          <div className="cuatro"></div>
-          <div className="cinco"></div>
-          <div className="seis"></div>
-          <div className="siete"></div>
-          <div className="ocho"></div>
-          <div className="nueve"></div>
-          <div className="cero"></div>
-          <div className="uno"></div>
-          <div className="uno"></div>
-          <div className="uno"></div>
-          <div className="uno"></div>
-          <div className="uno"></div>
-          <div className="uno"></div>
+          <div className="uno"><button className="tecla">1</button></div>
+          <div className="dos"><button className="tecla">2</button></div>
+          <div className="tres"><button className="tecla">3</button></div>
+          <div className="cuatro"><button className="tecla">4</button></div>
+          <div className="cinco"><button className="tecla">5</button></div>
+          <div className="seis"><button className="tecla">6</button></div>
+          <div className="siete"><button className="tecla">7</button></div>
+          <div className="ocho"><button className="tecla">8</button></div>
+          <div className="nueve"><button className="tecla">9</button></div>
+          <div className="cero"><button className="tecla">0</button></div>
+          <div className="sum"><button className="tecla">+</button></div>
+          <div className="res"><button className="tecla">-</button></div>
+          <div className="mul"><button className="tecla">x</button></div>
+          <div className="divi"><button className="tecla">/</button></div>
+          <div className="reset"><button className="tecla">res</button></div>
+          <div className="igual"><button className="tecla">=</button></div>
+          <div className="del"><button className="tecla">{`<-`}</button></div>
         </div>
       </div>
 
