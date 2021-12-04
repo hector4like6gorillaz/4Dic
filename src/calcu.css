@@ -37,6 +37,70 @@
   grid-area: siete;
 }
 
-.ocho{
-    grid-area: ocho;
+.ocho {
+  grid-area: ocho;
+}
+
+.nueve {
+  grid-area: nueve;
+}
+
+.del {
+  grid-area: del;
+}
+.cuatro {
+  grid-area: cuatro;
+}
+
+.cinco {
+  grid-area: cinco;
+}
+.seis {
+  grid-area: seis;
+}
+.sum {
+  grid-area: plus;
+}
+.uno {
+  grid-area: uno;
+}
+
+.dos {
+  grid-area: dos;
+}
+.tres {
+  grid-area: tres;
+}
+
+.res {
+  grid-area: rest;
+}
+
+.punto {
+  grid-area: dot;
+}
+
+.cero {
+  grid-area: cero;
+}
+
+.divi {
+  grid-area: div;
+}
+
+.mul {
+  grid-area: mul;
+}
+
+.reset {
+  grid-area: res;
+}
+
+.igual {
+  grid-area: igu;
+}
+
+.tecla {
+  width: 100%;
+  height: 100%;
 }

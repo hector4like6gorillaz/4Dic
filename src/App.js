@@ -114,6 +114,7 @@ function App() {
           <div className="reset"><button className="tecla">res</button></div>
           <div className="igual"><button className="tecla">=</button></div>
           <div className="del"><button className="tecla">{`<-`}</button></div>
+          <div className="punto"><button className="tecla">.</button></div>
         </div>
       </div>
 
